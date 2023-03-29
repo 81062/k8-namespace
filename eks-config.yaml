@@ -9,7 +9,7 @@ managedNodeGroups:
 
 
 # instanceTypes defaults to [`m5.large`]
-- name: spot
+- name: spot-1
   spot: true
   ssh:
    publicKeyName: power
